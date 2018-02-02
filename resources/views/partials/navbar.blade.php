@@ -16,7 +16,7 @@
                         </a>
                     </li>
                     <li class="nav-item {{  Request::is('consultas/crear') ? 'active' : ''}}">
-                        <a class="nav-link" href="{{url('/consultas/crear')}}">
+                        <a class="nav-link" href="{{url('/consultas/create')}}">
                             <span>&#10010</span> Crear Consulta
                         </a>
                     </li>
